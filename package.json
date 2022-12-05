@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "esbuild src/index.ts  --bundle --minify --platform=node --outfile=dist/indes.js"
+    "build": "esbuild src/index.ts  --bundle --minify --platform=node --outfile=dist/index.js"
   },
   "devDependencies": {
     "@types/command-exists": "^1.2.0",

@@ -5,6 +5,12 @@ inputs:
   tag:
     description: "dbt tag"
     required: false
+  targetDir:
+    description: "input target dir"
+    required: false
+  outputDir:
+    description: "output dir"
+    required: false
 
 runs:
   using: "node16"
