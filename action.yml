@@ -1,0 +1,11 @@
+name: "dbt2looker action"
+description: "Generate lookml from dbt models"
+
+inputs:
+  tag:
+    description: "dbt tag"
+    required: false
+
+runs:
+  using: "node16"
+  main: "dist/index.js"

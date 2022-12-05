@@ -1,0 +1,19 @@
+{
+  "name": "dbt2looker-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild src/index.ts  --bundle --minify --platform=node --outfile=dist/indes.js"
+  },
+  "devDependencies": {
+    "@types/command-exists": "^1.2.0",
+    "esbuild": "^0.15.18",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1",
+    "command-exists": "^1.2.9"
+  }
+}
